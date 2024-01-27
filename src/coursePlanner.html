@@ -1,0 +1,141 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Shadow Ninja Academy</title>
+		<link rel="stylesheet" type="text/css" href="style_coursePlanner.css"/>
+		<link rel="stylesheet" href="https://pyscript.net/releases/2023.11.1/core.css" />
+		<script type="module" src="https://pyscript.net/releases/2023.11.1/core.js"></script>
+	</head>
+	<body>
+		<nav>
+		<ul class="menu">
+			<li>
+				<t>
+					SNA
+				</t>
+			</li>
+			<li>
+				<a href="#" class="active">Home</a>
+			</li>
+			<li>
+				<a href="#">About</a>
+			</li>
+			<li>
+				<a href="#">Our Professors</a>
+			</li>
+			<li>
+				<a href="#">Notable Alumni</a>
+			</li>
+			<li>
+				<div class="dropdown">
+					<button class="drop">Courses</button>
+					<div class="dropdown_menu">
+						<a href="#">Fall 2023</a>
+						<a href="#">Spring 2024</a>
+						<a href="#">Summer 2024</a>
+						<a href="#">Course Planner</a>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="dropdown">
+					<button class="drop">Careers</button>
+					<div class="dropdown_menu">
+						<a href="#">Internships</a>
+						<a href="#">Entry Level</a>
+						<a href="#">Experienced</a>
+						<a href="#">Remote Careers</a>
+						<a href="#">Urgently Hiring</a>
+					</div>
+				</div>
+			</li>
+			<li style="float:right">
+				<a href="#">Contact</a>
+			</li>
+		</ul>
+		</nav>
+
+		<h2>
+			Course Planning Tool
+		</h2>
+
+		<p>
+			Use the course planning tool to plan your courses for the next semester.
+		</p>
+
+		<form class="search" id="search" onsubmit="return false">
+			<label for="course_name">Course name: </label>
+			<input type="text" id="course_name" name="course_name"><br>
+			<label for="course_id">Course ID: </label>
+			<input type="text" id="course_id" name="course_id"><br>
+			<label for="section">Section: </label>
+			<input type="text" id="section" name="section"><br>
+			<label for="professor">Professor: </label>
+			<input type="text" id="professor" name="professor"><br>
+			<label for="department">Department: </label>
+			<select id="department" name="department" class="dropdown1">
+				<option value="disguises">Disguises</option>
+				<option value="martial_arts">Martial Arts</option>
+				<option value="jutsu">Jutsu</option>
+				<option value="tactics">Tactics</option>
+				<option value="strategy">Strategy</option>
+				<option value="ethics">Ethics</option>
+				<option value="general_studies">General Studies</option>
+				<option value="electives">Electives</option>
+				<option value="all">All Departments</option>
+			</select>
+			<br>
+			<label for="department">Semester: </label>
+			<select id="semester" name="semester" class="dropdown1">
+				<option value="fall2023">Fall 2023</option>
+				<option value="spring2024">Spring 2024</option>
+				<option value="summer2024">Summer 2024</option>
+			</select>
+			<select id="location" name="location" class="dropdown1">
+				<option value="tokyo">Tokyo</option>
+				<option value="kyoto">Kyoto</option>
+				<option value="sapporo">Sapporo</option>
+				<option value="nyc">New York City</option>
+				<option value="london">London</option>
+				<option value="all">All Locations</option>
+			</select>
+			<br>
+			<input type="checkbox" id="in_person" name="in_person" value="in_person">
+			<label for="in_person">In Person</label><br>
+			<input type="checkbox" id="online" name="online" value="online">
+			<label for="online">Online</label><br>
+			<input type="checkbox" id="hybrid" name="hybrid" value="hybrid">
+			<label for="hybrid">Hybrid</label><br>
+			<br>
+			<input py-click="search_search" type="submit" value="Search" class="submit_search">
+		</form>
+
+		<br>
+		<p>Results</p>
+		<div>
+			<table id="results" class="results">
+			</table>
+		</div>
+		<p></p>
+
+		<p>Manually add courses</p>
+		<p>
+		<form class="search" id="addd" onsubmit="return false">
+			<label for="courseID">Enter exact Course ID: </label>
+			<input type="text" id="courseID" name="courseID"><br>
+			<input py-click="add_manual" type="submit" value="Add" class="submit_search">
+		</form>
+		</p>
+		<p id = "adddd"></p>
+
+		<p>Schedule</p>
+		<div id="schedule" class="schedule">
+
+		</div>
+
+
+		<py-script src="main2.py" config="pyscript.json"></py-script>
+
+
+	</body>
+</html>
