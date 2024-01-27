@@ -15,7 +15,7 @@ data = {'course_name': ['Cloaking','Cloaking','Karate','Karate','Karate','Karate
                        0,0,0,0,0,0],
         'professor': ['Kageyama, Kenji','Nakashima, Ichiro','Nakashima, Ichiro','Nakashima, Ichiro','Nakashima, Ichiro','Williams, Chester M.','Kageyama, Kenji',
                       'Kageyama, Kenji','Watanabe, James','Watanabe, James','Miyazaki, Machiko',
-                      'Devonshire, Wilson','Suzuki, Kotaro','Mendez, Maria L.,','Suzuki, Kotaro','Iwata, Kenshin','Smith, Dan'],
+                      'Devonshire, Wilson','Suzuki, Kotaro','Mendez, Maria L.','Suzuki, Kotaro','Iwata, Kenshin','Smith, Dan'],
         'semester': ['fall2023','fall2023','fall2023','fall2023','fall2023','fall2023','fall2023','fall2023','fall2023','fall2023','fall2023',
                      'fall2023','fall2023','fall2023','fall2023','fall2023','fall2023'],
         'department': ['disguises','disguises','martial_arts','martial_arts','martial_arts','martial_arts','martial_arts','martial_arts','martial_arts','martial_arts','tactics',
