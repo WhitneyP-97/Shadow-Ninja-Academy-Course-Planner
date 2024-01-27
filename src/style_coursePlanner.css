@@ -1,0 +1,124 @@
+* {
+	font-family: 'Comic Sans MS', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-color: #424242;
+}
+
+.menu{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	overflow: visible;
+	background-color: black;
+}
+
+.menu li{
+	float: left;
+	background-color: black;
+	padding: 0px;
+}
+
+.menu li t{
+	background-color: black;
+	color: red;
+	font-size: 16px;
+	display: block;
+	padding: 20px;
+	text-align: center;
+}
+
+.menu li a{
+	background-color: black;
+	color: red;
+	font-size: 16px;
+	display: block;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	background-color: gray;
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.drop{
+	background-color: black;
+	border: none;
+	color: red;
+	font-size: 16px;
+	padding: 20px;
+}
+
+.dropdown_menu{
+	display: none;
+	position: absolute;
+	background-color: black;
+}
+
+.dropdown_menu a{
+	display: block;
+	color: red;
+	font-size: 16px;
+	padding: 10px;
+}
+
+.dropdown:hover .dropdown_menu{
+	display: block;
+}
+
+.dropdown:hover .drop{
+	background-color: gray;
+}
+
+.dropdown_menu a:hover{
+	background-color: gray;
+}
+
+.menu li .active{
+	background-color: gray; 
+}
+
+h2{
+	margin: 100px 50px 20px 50px;
+	color: #cccccc;
+}
+
+p{
+	margin: 0px 50px 20px 50px;
+	color: #cccccc;
+}
+
+.search{
+	margin: 0px 50px 0px 50px;
+	color: #cccccc;
+}
+
+.dropdown1{
+	color: #aaaaaa;
+}
+
+.submit_search{
+	padding: 10px;
+	background-color: red;
+}
+
+.results{
+	color: #aaaaaa;
+	margin: 0px 50px 0px 50px;
+	padding: 0px 5px;
+}
+
+.results td{
+	color: #aaaaaa;
+	margin: 0px 50px;
+	padding: 0px 5px;
+}
