@@ -1,0 +1,18 @@
+,course_name,course_id,section,capacity,registered,professor,semester,department,location,course_type,sched
+0,Cloaking,DS101-1,1,15,0,"Kageyama, Kenji",fall2023,disguises,tokyo,in_person,M 6-9
+1,Cloaking,DS101-2,2,15,0,"Nakashima, Ichiro",fall2023,disguises,tokyo,in_person,TTh 2-3.5
+2,Karate,MA101-1,1,50,0,"Nakashima, Ichiro",fall2023,martial_arts,tokyo,in_person,MW 12-1.5
+3,Karate,MA101-2,2,50,0,"Nakashima, Ichiro",fall2023,martial_arts,tokyo,in_person,M 8.5-11.5
+4,Karate,MA101-3,3,50,0,"Nakashima, Ichiro",fall2023,martial_arts,kyoto,in_person,M 6-9
+5,Karate,MA101-4,4,30,0,"Williams, Chester M.",fall2023,martial_arts,london,in_person,F 6-9
+6,Kenjutsu,MA210-1,1,15,0,"Kageyama, Kenji",fall2023,martial_arts,tokyo,in_person,MF 4-5.5
+7,Shuriken Throwing,MA223-1,1,15,0,"Kageyama, Kenji",fall2023,martial_arts,tokyo,in_person,MTh 2-3.5
+8,Poisons I,MA405-1,1,10,0,"Watanabe, James",fall2023,martial_arts,sapporo,hybrid,TW 4-5.5
+9,Poisons II,MA406-1,1,10,0,"Watanabe, James",fall2023,martial_arts,sapporo,hybrid,Th 8.5-11.5
+10,Squad Tactics I,TAC101-1,1,8,0,"Miyazaki, Machiko",fall2023,tactics,nyc,in_person,Th 12-3
+11,The Art of War,STR101-1,1,100,0,"Devonshire, Wilson",fall2023,strategy,london,in_person,MWF 12-1
+12,The Art of War,STR101-2,2,50,0,"Suzuki, Kotaro",fall2023,strategy,kyoto,hybrid,MWTh 4-5
+13,History of Modern Warfare,STR337-1,1,30,0,"Mendez, Maria L.,",fall2023,strategy,london,online,TTh 2-3.5
+14,Honoring the Code of Bushido,ET101-1,1,100,0,"Suzuki, Kotaro",fall2023,ethics,kyoto,online,Th 6-9
+15,Calculus I,GS210-1,1,30,0,"Iwata, Kenshin",fall2023,general_studies,tokyo,online,W 6-9
+16,Dodgeball,ELE225-1,1,25,0,"Smith, Dan",fall2023,electives,nyc,in_person,F 12-3
